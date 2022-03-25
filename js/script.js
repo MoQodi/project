@@ -1,4 +1,4 @@
-"use sctrict";
+" use strict ";
 //let number =4;
 //console.log(4/0);
 //console.log('string'*9);
@@ -42,9 +42,29 @@
 
 // ---------------------------------------------------------
 // Интерполяция
-const category = 'toys';
+//const category = 'toys';
 
-console.log(`https://someurl.com/${category}/5`);
-const user ='Ivan';
-console.log(`Do you want to eat ${user} ?`);
+//console.log(`https://someurl.com/${category}/5`);
+//----------------------------------------------------------
+//-----------------------------------------------------
+// Инкримент и Дикримент
+let incr =10,
+    decr =10;
+
+    incr++;
+    decr--;
+
+    console.log(incr);
+    console.log(decr); 
+
+    console.log(5%2);
+    console.log(2+2*2 !=8);
+     
+    const isChecked =true,
+          isClose =false;
+          console.log(isChecked || isClose);
+
+
+
+
 
