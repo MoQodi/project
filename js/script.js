@@ -48,21 +48,43 @@
 //----------------------------------------------------------
 //-----------------------------------------------------
 // Инкримент и Дикримент
-let incr =10,
-    decr =10;
+//let incr =10,
+  //  decr =10;
 
-    incr++;
-    decr--;
+    //incr++;
+    //decr--;
 
-    console.log(incr);
-    console.log(decr); 
+    //console.log(incr);
+    //console.log(decr); 
 
-    console.log(5%2);
-    console.log(2+2*2 !=8);
+    //console.log(5%2);
+    //console.log(2+2*2 !=8);
      
-    const isChecked =true,
-          isClose =false;
-          console.log(isChecked || isClose);
+    //const isChecked =true,
+      //    isClose =false;
+        //  console.log(isChecked || isClose);
+
+
+
+const numberOffFilms = +prompt('Сколько фильмов вы уже посмотрели ?', '');
+const personalMovieDB = {
+  count:numberOffFilms,
+  movies:{},
+  actors:{},
+  genres:[],
+  privat: false
+
+};
+const a =prompt("One of the last movies I saw ? ", " "),
+b = prompt("How much do you appreciate it ?"," "),
+c =prompt("One of the last movies I saw ?"," "),
+d =prompt("How much do you appreciate it ?"," "); 
+personalMovieDB.movies[a]=b;
+personalMovieDB.movies[c]=d;
+
+console.log(personalMovieDB);
+
+
 
 
 
